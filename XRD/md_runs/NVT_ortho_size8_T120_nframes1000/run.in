@@ -1,6 +1,0 @@
-potential ../nep.txt
-velocity 240
-ensemble nvt_ber 120 120 100
-dump_exyz 100 0 0
-dump_thermo 100
-run 100000

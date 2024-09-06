@@ -1,0 +1,7 @@
+potential     ../nep.txt
+velocity      800
+ensemble      npt_scr 400 400 100   0 0 0   80 80 80  200
+time_step     2.0
+dump_thermo   200
+dump_position 2500
+run           50000
