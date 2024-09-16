@@ -1,0 +1,3253 @@
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   ** /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son does not exist, nothing to prepare
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  62.807 meV/AA
+[relaxation]   .. residual stress: 7463.173 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  350.317 meV/AA
+[relaxation]   .. residual stress: 52224.125 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  53.164 meV/AA
+[relaxation]   .. residual stress: 2807.415 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  46.538 meV/AA
+[relaxation]   .. residual stress: 1543.467 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6461195
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  46.216 meV/AA
+[relaxation]   .. residual stress: 1543.467 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  60.380 meV/AA
+[relaxation]   .. residual stress: 1826.349 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  48.141 meV/AA
+[relaxation]   .. residual stress: 2031.343 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  56.341 meV/AA
+[relaxation]   .. residual stress: 2979.218 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6461608
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  56.440 meV/AA
+[relaxation]   .. residual stress: 2979.218 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  42.022 meV/AA
+[relaxation]   .. residual stress: 1344.506 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  38.947 meV/AA
+[relaxation]   .. residual stress: 78.718 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  36.233 meV/AA
+[relaxation]   .. residual stress: 85.646 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6462241
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  36.065 meV/AA
+[relaxation]   .. residual stress: 85.646 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  101.382 meV/AA
+[relaxation]   .. residual stress: 5995.212 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  41.921 meV/AA
+[relaxation]   .. residual stress: 147.951 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  33.320 meV/AA
+[relaxation]   .. residual stress: 637.450 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6462708
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  33.367 meV/AA
+[relaxation]   .. residual stress: 637.450 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  29.895 meV/AA
+[relaxation]   .. residual stress: 416.868 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  41.672 meV/AA
+[relaxation]   .. residual stress: 238.489 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6463088
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  41.750 meV/AA
+[relaxation]   .. residual stress: 238.489 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6463419
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  41.750 meV/AA
+[relaxation]   .. residual stress: 238.489 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  108.640 meV/AA
+[relaxation]   .. residual stress: 1142.235 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  27.654 meV/AA
+[relaxation]   .. residual stress: 589.329 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  34.951 meV/AA
+[relaxation]   .. residual stress: 273.641 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6463647
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  34.965 meV/AA
+[relaxation]   .. residual stress: 273.641 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  29.980 meV/AA
+[relaxation]   .. residual stress: 119.702 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  23.789 meV/AA
+[relaxation]   .. residual stress: 135.901 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  16.979 meV/AA
+[relaxation]   .. residual stress: 270.496 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6463995
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  16.969 meV/AA
+[relaxation]   .. residual stress: 270.496 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6464185
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  16.969 meV/AA
+[relaxation]   .. residual stress: 270.496 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  199.909 meV/AA
+[relaxation]   .. residual stress: 10373.320 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6464580
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  201.242 meV/AA
+[relaxation]   .. residual stress: 10373.320 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6464931
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  201.242 meV/AA
+[relaxation]   .. residual stress: 10373.320 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  488.069 meV/AA
+[relaxation]   .. residual stress: 10686.744 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  465.276 meV/AA
+[relaxation]   .. residual stress: 10339.348 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  417.596 meV/AA
+[relaxation]   .. residual stress: 9323.480 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6465522
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  416.350 meV/AA
+[relaxation]   .. residual stress: 9323.480 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  922.629 meV/AA
+[relaxation]   .. residual stress: 18817.462 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  293.460 meV/AA
+[relaxation]   .. residual stress: 5884.940 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  276.892 meV/AA
+[relaxation]   .. residual stress: 2354.285 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6466486
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  273.230 meV/AA
+[relaxation]   .. residual stress: 2354.285 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  284.218 meV/AA
+[relaxation]   .. residual stress: 3884.345 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  197.512 meV/AA
+[relaxation]   .. residual stress: 1646.955 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  192.810 meV/AA
+[relaxation]   .. residual stress: 1857.569 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6467435
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  192.918 meV/AA
+[relaxation]   .. residual stress: 1857.569 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  539.702 meV/AA
+[relaxation]   .. residual stress: 15819.576 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  201.004 meV/AA
+[relaxation]   .. residual stress: 1637.602 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  186.818 meV/AA
+[relaxation]   .. residual stress: 1211.724 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6468006
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  186.595 meV/AA
+[relaxation]   .. residual stress: 1211.724 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  130.152 meV/AA
+[relaxation]   .. residual stress: 6860.836 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  144.569 meV/AA
+[relaxation]   .. residual stress: 1314.969 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  137.409 meV/AA
+[relaxation]   .. residual stress: 938.904 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6468821
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  137.467 meV/AA
+[relaxation]   .. residual stress: 938.904 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  149.770 meV/AA
+[relaxation]   .. residual stress: 2342.543 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  109.184 meV/AA
+[relaxation]   .. residual stress: 374.032 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6469129
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  109.016 meV/AA
+[relaxation]   .. residual stress: 374.032 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  93.135 meV/AA
+[relaxation]   .. residual stress: 563.796 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  42.877 meV/AA
+[relaxation]   .. residual stress: 519.078 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  27.751 meV/AA
+[relaxation]   .. residual stress: 470.561 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6469592
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  27.696 meV/AA
+[relaxation]   .. residual stress: 470.561 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  34.567 meV/AA
+[relaxation]   .. residual stress: 1528.603 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  23.972 meV/AA
+[relaxation]   .. residual stress: 102.058 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  22.986 meV/AA
+[relaxation]   .. residual stress: 37.539 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6470096
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  22.982 meV/AA
+[relaxation]   .. residual stress: 37.539 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  63.357 meV/AA
+[relaxation]   .. residual stress: 2236.779 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  21.597 meV/AA
+[relaxation]   .. residual stress: 38.174 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  20.560 meV/AA
+[relaxation]   .. residual stress: 26.562 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6470257
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  20.560 meV/AA
+[relaxation]   .. residual stress: 26.562 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  15.530 meV/AA
+[relaxation]   .. residual stress: 781.118 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  10.482 meV/AA
+[relaxation]   .. residual stress: 201.166 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6470443
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  10.480 meV/AA
+[relaxation]   .. residual stress: 201.166 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  7.805 meV/AA
+[relaxation]   .. residual stress: 39.305 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  5.720 meV/AA
+[relaxation]   .. residual stress: 44.646 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  3.579 meV/AA
+[relaxation]   .. residual stress: 28.842 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6470586
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  3.580 meV/AA
+[relaxation]   .. residual stress: 28.842 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  6.467 meV/AA
+[relaxation]   .. residual stress: 324.961 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  3.109 meV/AA
+[relaxation]   .. residual stress: 5.546 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  2.956 meV/AA
+[relaxation]   .. residual stress: 3.726 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6470820
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  2.955 meV/AA
+[relaxation]   .. residual stress: 3.726 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  2.542 meV/AA
+[relaxation]   .. residual stress: 47.950 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  2.638 meV/AA
+[relaxation]   .. residual stress: 6.315 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6470930
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  2.639 meV/AA
+[relaxation]   .. residual stress: 6.315 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  2.483 meV/AA
+[relaxation]   .. residual stress: 4.731 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  1.840 meV/AA
+[relaxation]   .. residual stress: 17.678 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6471112
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  1.838 meV/AA
+[relaxation]   .. residual stress: 17.678 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  4.351 meV/AA
+[relaxation]   .. residual stress: 81.112 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  1.615 meV/AA
+[relaxation]   .. residual stress: 3.057 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  1.192 meV/AA
+[relaxation]   .. residual stress: 1.247 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6471310
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  1.192 meV/AA
+[relaxation]   .. residual stress: 1.247 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  0.879 meV/AA
+[relaxation]   .. residual stress: 29.599 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  0.797 meV/AA
+[relaxation]   .. residual stress: 7.808 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  0.839 meV/AA
+[relaxation]   .. residual stress: 2.343 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   ** /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son does not exist, nothing to prepare
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  62.807 meV/AA
+[relaxation]   .. residual stress: 7463.173 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  350.317 meV/AA
+[relaxation]   .. residual stress: 52224.125 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  53.164 meV/AA
+[relaxation]   .. residual stress: 2807.415 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  46.538 meV/AA
+[relaxation]   .. residual stress: 1543.467 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6486580
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  46.215 meV/AA
+[relaxation]   .. residual stress: 1543.467 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  60.380 meV/AA
+[relaxation]   .. residual stress: 1826.349 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  48.141 meV/AA
+[relaxation]   .. residual stress: 2031.343 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  56.341 meV/AA
+[relaxation]   .. residual stress: 2979.208 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6486690
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  56.439 meV/AA
+[relaxation]   .. residual stress: 2979.208 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  42.022 meV/AA
+[relaxation]   .. residual stress: 1344.501 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  38.945 meV/AA
+[relaxation]   .. residual stress: 78.718 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  36.233 meV/AA
+[relaxation]   .. residual stress: 85.666 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6486764
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  36.065 meV/AA
+[relaxation]   .. residual stress: 85.666 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  101.396 meV/AA
+[relaxation]   .. residual stress: 5995.573 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  41.923 meV/AA
+[relaxation]   .. residual stress: 147.951 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  33.325 meV/AA
+[relaxation]   .. residual stress: 637.871 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6486892
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  33.372 meV/AA
+[relaxation]   .. residual stress: 637.871 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  29.880 meV/AA
+[relaxation]   .. residual stress: 417.379 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  41.649 meV/AA
+[relaxation]   .. residual stress: 239.592 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  42.245 meV/AA
+[relaxation]   .. residual stress: 340.817 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487056
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  42.327 meV/AA
+[relaxation]   .. residual stress: 340.817 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  577.116 meV/AA
+[relaxation]   .. residual stress: 24794.629 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  27.754 meV/AA
+[relaxation]   .. residual stress: 176.480 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  27.718 meV/AA
+[relaxation]   .. residual stress: 90.508 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487153
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  27.703 meV/AA
+[relaxation]   .. residual stress: 90.508 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  47.684 meV/AA
+[relaxation]   .. residual stress: 709.212 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  27.880 meV/AA
+[relaxation]   .. residual stress: 151.111 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  23.674 meV/AA
+[relaxation]   .. residual stress: 64.710 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487225
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  23.680 meV/AA
+[relaxation]   .. residual stress: 64.710 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  13.335 meV/AA
+[relaxation]   .. residual stress: 309.146 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  17.593 meV/AA
+[relaxation]   .. residual stress: 97.651 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  17.886 meV/AA
+[relaxation]   .. residual stress: 88.910 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487275
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  17.885 meV/AA
+[relaxation]   .. residual stress: 88.910 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  61.785 meV/AA
+[relaxation]   .. residual stress: 777.423 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  13.901 meV/AA
+[relaxation]   .. residual stress: 114.049 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  11.547 meV/AA
+[relaxation]   .. residual stress: 80.979 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487406
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  11.544 meV/AA
+[relaxation]   .. residual stress: 80.979 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  29.878 meV/AA
+[relaxation]   .. residual stress: 1373.424 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  10.623 meV/AA
+[relaxation]   .. residual stress: 103.036 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  9.760 meV/AA
+[relaxation]   .. residual stress: 82.161 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487442
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  9.758 meV/AA
+[relaxation]   .. residual stress: 82.161 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  40.623 meV/AA
+[relaxation]   .. residual stress: 918.486 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  7.687 meV/AA
+[relaxation]   .. residual stress: 113.700 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  6.751 meV/AA
+[relaxation]   .. residual stress: 97.392 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487485
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  6.751 meV/AA
+[relaxation]   .. residual stress: 97.392 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  9.272 meV/AA
+[relaxation]   .. residual stress: 444.576 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  6.009 meV/AA
+[relaxation]   .. residual stress: 137.277 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  5.206 meV/AA
+[relaxation]   .. residual stress: 52.941 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487516
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  5.207 meV/AA
+[relaxation]   .. residual stress: 52.941 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  6.287 meV/AA
+[relaxation]   .. residual stress: 66.452 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  104.305 meV/AA
+[relaxation]   .. residual stress: 2343.866 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  5.313 meV/AA
+[relaxation]   .. residual stress: 198.253 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487561
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  5.312 meV/AA
+[relaxation]   .. residual stress: 198.253 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  5.759 meV/AA
+[relaxation]   .. residual stress: 69.931 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  5.850 meV/AA
+[relaxation]   .. residual stress: 26.623 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  5.753 meV/AA
+[relaxation]   .. residual stress: 14.783 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487652
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  5.752 meV/AA
+[relaxation]   .. residual stress: 14.783 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  11.227 meV/AA
+[relaxation]   .. residual stress: 479.927 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  5.214 meV/AA
+[relaxation]   .. residual stress: 8.839 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  4.888 meV/AA
+[relaxation]   .. residual stress: 12.309 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487704
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  4.889 meV/AA
+[relaxation]   .. residual stress: 12.309 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  4.849 meV/AA
+[relaxation]   .. residual stress: 280.917 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  3.892 meV/AA
+[relaxation]   .. residual stress: 24.080 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  3.513 meV/AA
+[relaxation]   .. residual stress: 16.693 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487756
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  3.515 meV/AA
+[relaxation]   .. residual stress: 16.693 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  9.694 meV/AA
+[relaxation]   .. residual stress: 531.318 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  2.665 meV/AA
+[relaxation]   .. residual stress: 18.287 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  2.319 meV/AA
+[relaxation]   .. residual stress: 17.785 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487872
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  2.319 meV/AA
+[relaxation]   .. residual stress: 17.785 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  4.056 meV/AA
+[relaxation]   .. residual stress: 134.445 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  1.624 meV/AA
+[relaxation]   .. residual stress: 6.325 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  1.282 meV/AA
+[relaxation]   .. residual stress: 4.279 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487942
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  1.283 meV/AA
+[relaxation]   .. residual stress: 4.279 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  0.714 meV/AA
+[relaxation]   .. residual stress: 40.966 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  0.713 meV/AA
+[relaxation]   .. residual stress: 11.087 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  0.582 meV/AA
+[relaxation]   .. residual stress: 4.344 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6487978
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  0.582 meV/AA
+[relaxation]   .. residual stress: 4.344 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  0.384 meV/AA
+[relaxation]   .. residual stress: 2.710 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  0.185 meV/AA
+[relaxation]   .. residual stress: 1.056 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  0.059 meV/AA
+[relaxation]   .. residual stress: 1.528 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6488033
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: hse06 0.11
+[calculator]     hse_unit: bohr-1
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  0.059 meV/AA
+[relaxation]   .. residual stress: 1.528 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  0.087 meV/AA
+[relaxation]   .. residual stress: 7.658 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  0.031 meV/AA
+[relaxation]   .. residual stress: 0.568 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Relaxation converged.
+[relaxation]   done.
