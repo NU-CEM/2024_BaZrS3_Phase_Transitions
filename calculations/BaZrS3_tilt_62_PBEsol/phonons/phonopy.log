@@ -1,0 +1,1173 @@
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations does not exist, nothing to back up.
+[vibes]        Compute structure 1 of 19: working
+[vibes]        Compute structure 1 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617272
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12347)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.031s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.698s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.000s
+[trajectory]   .. done in 0.729s
+[socketio]     Use SocketIO with host localhost and port 12347
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00000.439616FB.tgz
+[backup]       aims_uuid was:      439616FB-A852-4D55-A73E-B49A4F9F528E
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> use_pimd_wrapper changed: from ['localhost', 12347] to ['localhost', 12346]
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator_parameters changed: from {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'} to {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator changed: from {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}} to {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}}
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Compute structure 2 of 19: working
+[vibes]        Compute structure 2 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617295
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.288s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.787s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.000s
+[trajectory]   .. done in 1.075s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00001.8737D4F7.tgz
+[backup]       aims_uuid was:      8737D4F7-6250-45BC-A05A-D0234283288C
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Compute structure 3 of 19: working
+[vibes]        Compute structure 3 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617344
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12347)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.040s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.663s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.000s
+[trajectory]   .. done in 0.727s
+[socketio]     Use SocketIO with host localhost and port 12347
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00002.24AFACB2.tgz
+[backup]       aims_uuid was:      24AFACB2-9E6C-4408-A7CD-103F0DAF08EB
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> use_pimd_wrapper changed: from ['localhost', 12347] to ['localhost', 12346]
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator_parameters changed: from {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'} to {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator changed: from {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}} to {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}}
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Compute structure 4 of 19: working
+[vibes]        Compute structure 4 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617442
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.063s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.639s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.000s
+[trajectory]   .. done in 0.714s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00003.41B3A4D4.tgz
+[backup]       aims_uuid was:      41B3A4D4-2211-4868-AA29-75FE9FC60A79
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Compute structure 5 of 19: working
+[vibes]        Compute structure 5 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617483
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.059s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.711s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.774s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00004.8C490E8B.tgz
+[backup]       aims_uuid was:      8C490E8B-B677-474D-A38E-0B8631D57F98
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Compute structure 6 of 19: working
+[vibes]        Compute structure 6 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617567
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.051s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.643s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.710s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00005.14E8C22F.tgz
+[backup]       aims_uuid was:      14E8C22F-B55A-44A9-A30F-3E14252F3672
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Compute structure 7 of 19: working
+[vibes]        Compute structure 7 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617640
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.064s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.682s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.762s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00006.22A7561F.tgz
+[backup]       aims_uuid was:      22A7561F-E2A5-41C4-A090-5E4F85ECBE46
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Compute structure 8 of 19: working
+[vibes]        Compute structure 8 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617688
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.059s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.641s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.719s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00007.D114B125.tgz
+[backup]       aims_uuid was:      D114B125-87ED-4316-AA10-1C913B49D78E
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Compute structure 9 of 19: working
+[vibes]        Compute structure 9 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617743
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12347)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.062s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.708s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.819s
+[socketio]     Use SocketIO with host localhost and port 12347
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00008.335AC0E5.tgz
+[backup]       aims_uuid was:      335AC0E5-7FBA-4A00-A984-B6D30A6B0B09
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> use_pimd_wrapper changed: from ['localhost', 12347] to ['localhost', 12346]
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator_parameters changed: from {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'} to {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator changed: from {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}} to {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}}
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Compute structure 10 of 19: working
+[vibes]        Compute structure 10 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617803
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.039s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.693s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.758s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00009.B786EDD5.tgz
+[backup]       aims_uuid was:      B786EDD5-6A7A-4086-A08B-D4FFEC208564
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Compute structure 11 of 19: working
+[vibes]        Compute structure 11 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6617921
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.045s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.683s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.746s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00010.3D12FEF9.tgz
+[backup]       aims_uuid was:      3D12FEF9-72F7-49E8-A7F0-D4A3CF80F25A
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Structure 11 already computed, skip.
+[vibes]        Compute structure 12 of 19: working
+[vibes]        Compute structure 12 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6618098
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.050s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.680s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.731s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00011.44B54AE1.tgz
+[backup]       aims_uuid was:      44B54AE1-BE4D-46C9-A635-54D8622A0B9A
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Structure 11 already computed, skip.
+[vibes]        Structure 12 already computed, skip.
+[vibes]        Compute structure 13 of 19: working
+[vibes]        Compute structure 13 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6618205
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12347)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.058s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.673s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.734s
+[socketio]     Use SocketIO with host localhost and port 12347
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00012.99FA81E7.tgz
+[backup]       aims_uuid was:      99FA81E7-13A4-4909-A621-10258755DC06
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> use_pimd_wrapper changed: from ['localhost', 12347] to ['localhost', 12346]
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator_parameters changed: from {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'} to {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator changed: from {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}} to {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}}
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Structure 11 already computed, skip.
+[vibes]        Structure 12 already computed, skip.
+[vibes]        Structure 13 already computed, skip.
+[vibes]        Compute structure 14 of 19: working
+[vibes]        Compute structure 14 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6618311
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.078s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.693s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.810s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00013.7D434E6B.tgz
+[backup]       aims_uuid was:      7D434E6B-E72C-4065-AC64-CF93005C0742
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Structure 11 already computed, skip.
+[vibes]        Structure 12 already computed, skip.
+[vibes]        Structure 13 already computed, skip.
+[vibes]        Structure 14 already computed, skip.
+[vibes]        Compute structure 15 of 19: working
+[vibes]        Compute structure 15 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6618395
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.050s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.654s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.745s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00014.19E6D267.tgz
+[backup]       aims_uuid was:      19E6D267-1A13-4E67-A4AD-BD0290EB956F
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Structure 11 already computed, skip.
+[vibes]        Structure 12 already computed, skip.
+[vibes]        Structure 13 already computed, skip.
+[vibes]        Structure 14 already computed, skip.
+[vibes]        Structure 15 already computed, skip.
+[vibes]        Compute structure 16 of 19: working
+[vibes]        Compute structure 16 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6618416
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12347)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.066s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.664s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.771s
+[socketio]     Use SocketIO with host localhost and port 12347
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00015.DAFF0CFE.tgz
+[backup]       aims_uuid was:      DAFF0CFE-2DFD-449F-A428-3F672C652011
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> use_pimd_wrapper changed: from ['localhost', 12347] to ['localhost', 12346]
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator_parameters changed: from {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'} to {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator changed: from {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}} to {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}}
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Structure 11 already computed, skip.
+[vibes]        Structure 12 already computed, skip.
+[vibes]        Structure 13 already computed, skip.
+[vibes]        Structure 14 already computed, skip.
+[vibes]        Structure 15 already computed, skip.
+[vibes]        Structure 16 already computed, skip.
+[vibes]        Compute structure 17 of 19: working
+[vibes]        Compute structure 17 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6618476
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12346)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.101s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.714s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.832s
+[socketio]     Use SocketIO with host localhost and port 12346
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00016.6834EC1B.tgz
+[backup]       aims_uuid was:      6834EC1B-5366-4822-AD6F-7382636F7D5F
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Structure 11 already computed, skip.
+[vibes]        Structure 12 already computed, skip.
+[vibes]        Structure 13 already computed, skip.
+[vibes]        Structure 14 already computed, skip.
+[vibes]        Structure 15 already computed, skip.
+[vibes]        Structure 16 already computed, skip.
+[vibes]        Structure 17 already computed, skip.
+[vibes]        Compute structure 18 of 19: working
+[vibes]        Compute structure 18 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[restart]      Restart task with sbatch vibes_phonopy.sh
+Submitted batch job 6618655
+[vibes.run]    run phonopy workflow with settings from phonopy.in
+
+[calculator]   Update aims k_grid with kpt density of 5 to [4, 2, 4]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+* Message from file vibes/helpers/socketio.py, line 86, function get_port:
+--> Port 12345 in use, changing to the next free port
+
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [4, 2, 4]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     use_pimd_wrapper: ('localhost', 12347)
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets
+[vibes]        Run phonopy workflow in working directory
+  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son`
+[son] open file:  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.075s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.693s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.786s
+[socketio]     Use SocketIO with host localhost and port 12347
+[backup]       Folder:             /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/calculations
+[backup]       was backed up in:   /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/backups/backup.00017.046BD1F7.tgz
+[backup]       aims_uuid was:      046BD1F7-39F0-4BAD-AF1A-058AA5BFF27D
+** Warning from file vibes/settings.py, line 159, function write:
+--> phonopy.in exists, do not overwrite settings.
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> use_pimd_wrapper changed: from ['localhost', 12347] to ['localhost', 12346]
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator_parameters changed: from {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'} to {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}
+
+** Warning from file vibes/calculate.py, line 224, function check_metadata:
+--> calculator changed: from {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12347], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}} to {'calculator': 'Aims', 'calculator_parameters': {'xc': 'pbesol', 'k_grid': [4, 2, 4], 'sc_accuracy_rho': 1e-06, 'relativistic': 'atomic_zora scalar', 'output_level': 'MD_light', 'compute_forces': True, 'use_pimd_wrapper': ['localhost', 12346], 'species_dir': '/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets'}}
+
+[vibes]        resume from /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/phonons/phonopy/trajectory.son
+[vibes]        Structure 1 already computed, skip.
+[vibes]        Structure 2 already computed, skip.
+[vibes]        Structure 3 already computed, skip.
+[vibes]        Structure 4 already computed, skip.
+[vibes]        Structure 5 already computed, skip.
+[vibes]        Structure 6 already computed, skip.
+[vibes]        Structure 7 already computed, skip.
+[vibes]        Structure 8 already computed, skip.
+[vibes]        Structure 9 already computed, skip.
+[vibes]        Structure 10 already computed, skip.
+[vibes]        Structure 11 already computed, skip.
+[vibes]        Structure 12 already computed, skip.
+[vibes]        Structure 13 already computed, skip.
+[vibes]        Structure 14 already computed, skip.
+[vibes]        Structure 15 already computed, skip.
+[vibes]        Structure 16 already computed, skip.
+[vibes]        Structure 17 already computed, skip.
+[vibes]        Structure 18 already computed, skip.
+[vibes]        Compute structure 19 of 19: working
+[vibes]        Compute structure 19 of 19: finished.
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[vibes]        Close the socket
+[vibes]        Start postprocess.
+[phonopy.postprocess] Start phonopy postprocess:
+[trajectory]   Parse `phonopy/trajectory.son`
+[son] open file:  phonopy/trajectory.son
+[trajectory]   .. time elapsed: 0.109s
+[trajectory]   .. create atoms
+[trajectory]   .. time elapsed: 0.637s
+[trajectory]   .. set raw hash
+[trajectory]   .. time elapsed: 0.001s
+[trajectory]   .. done in 0.749s
+[phonopy.postprocess] .. done in 1.226s
+[vibes]        done.

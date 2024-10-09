@@ -1,0 +1,361 @@
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   ** /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son does not exist, nothing to prepare
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  5448.198 meV/AA
+[relaxation]   .. residual stress: 39202.180 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  2369.706 meV/AA
+[relaxation]   .. residual stress: 30485.955 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  4079.109 meV/AA
+[relaxation]   .. residual stress: 148692.469 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  2706.274 meV/AA
+[relaxation]   .. residual stress: 4873.722 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 4 finished.
+[relaxation]   .. residual force:  2701.734 meV/AA
+[relaxation]   .. residual stress: 14957.168 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 5 finished.
+[relaxation]   .. residual force:  1845.671 meV/AA
+[relaxation]   .. residual stress: 26478.626 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 6 finished.
+[relaxation]   .. residual force:  906.891 meV/AA
+[relaxation]   .. residual stress: 10999.249 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 7 finished.
+[relaxation]   .. residual force:  541.959 meV/AA
+[relaxation]   .. residual stress: 6091.769 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 8 finished.
+[relaxation]   .. residual force:  470.424 meV/AA
+[relaxation]   .. residual stress: 1382.024 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 9 finished.
+[relaxation]   .. residual force:  407.336 meV/AA
+[relaxation]   .. residual stress: 1948.655 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 10 finished.
+[relaxation]   .. residual force:  327.058 meV/AA
+[relaxation]   .. residual stress: 3228.737 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 11 finished.
+[relaxation]   .. residual force:  216.902 meV/AA
+[relaxation]   .. residual stress: 2853.961 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 12 finished.
+[relaxation]   .. residual force:  181.439 meV/AA
+[relaxation]   .. residual stress: 1200.105 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 13 finished.
+[relaxation]   .. residual force:  164.580 meV/AA
+[relaxation]   .. residual stress: 338.136 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 14 finished.
+[relaxation]   .. residual force:  141.906 meV/AA
+[relaxation]   .. residual stress: 490.356 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 15 finished.
+[relaxation]   .. residual force:  118.250 meV/AA
+[relaxation]   .. residual stress: 363.812 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 16 finished.
+[relaxation]   .. residual force:  92.671 meV/AA
+[relaxation]   .. residual stress: 482.922 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 17 finished.
+[relaxation]   .. residual force:  115.741 meV/AA
+[relaxation]   .. residual stress: 486.549 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 18 finished.
+[relaxation]   .. residual force:  139.731 meV/AA
+[relaxation]   .. residual stress: 519.469 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 19 finished.
+[relaxation]   .. residual force:  156.045 meV/AA
+[relaxation]   .. residual stress: 218.283 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 20 finished.
+[relaxation]   .. residual force:  165.341 meV/AA
+[relaxation]   .. residual stress: 563.689 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 21 finished.
+[relaxation]   .. residual force:  160.155 meV/AA
+[relaxation]   .. residual stress: 1259.688 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 22 finished.
+[relaxation]   .. residual force:  117.531 meV/AA
+[relaxation]   .. residual stress: 2131.141 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 23 finished.
+[relaxation]   .. residual force:  86.417 meV/AA
+[relaxation]   .. residual stress: 2004.584 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 24 finished.
+[relaxation]   .. residual force:  75.305 meV/AA
+[relaxation]   .. residual stress: 567.520 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 25 finished.
+[relaxation]   .. residual force:  83.403 meV/AA
+[relaxation]   .. residual stress: 91.691 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 26 finished.
+[relaxation]   .. residual force:  85.028 meV/AA
+[relaxation]   .. residual stress: 248.929 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 27 finished.
+[relaxation]   .. residual force:  77.397 meV/AA
+[relaxation]   .. residual stress: 551.265 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 28 finished.
+[relaxation]   .. residual force:  54.096 meV/AA
+[relaxation]   .. residual stress: 698.243 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 29 finished.
+[relaxation]   .. residual force:  23.314 meV/AA
+[relaxation]   .. residual stress: 472.040 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 30 finished.
+[relaxation]   .. residual force:  12.997 meV/AA
+[relaxation]   .. residual stress: 134.841 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 31 finished.
+[relaxation]   .. residual force:  8.788 meV/AA
+[relaxation]   .. residual stress: 8.730 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 32 finished.
+[relaxation]   .. residual force:  7.760 meV/AA
+[relaxation]   .. residual stress: 28.884 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 33 finished.
+[relaxation]   .. residual force:  6.057 meV/AA
+[relaxation]   .. residual stress: 60.552 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 34 finished.
+[relaxation]   .. residual force:  4.898 meV/AA
+[relaxation]   .. residual stress: 82.808 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 35 finished.
+[relaxation]   .. residual force:  4.057 meV/AA
+[relaxation]   .. residual stress: 73.978 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 36 finished.
+[relaxation]   .. residual force:  5.076 meV/AA
+[relaxation]   .. residual stress: 34.071 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 37 finished.
+[relaxation]   .. residual force:  4.961 meV/AA
+[relaxation]   .. residual stress: 4.792 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 38 finished.
+[relaxation]   .. residual force:  4.478 meV/AA
+[relaxation]   .. residual stress: 8.202 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 39 finished.
+[relaxation]   .. residual force:  3.862 meV/AA
+[relaxation]   .. residual stress: 21.977 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+* Message from file vibes/helpers/watchdogs.py, line 164, function __call__:
+--> Watchdog: running out of time!
+
+[relaxation]   restart
+[restart]      Restart task with sbatch submit.sh
+Submitted batch job 6039600
+[vibes.run]    run relaxation workflow with settings from relaxation.in
+
+[relaxation]   Resume relaxation from  /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/relaxation/trajectory.son
+[calculator]   Update aims k_grid with kpt density of 5 to [6, 4, 6]
+[calculator]   .. add `sc_accuracy_rho: 1e-06` to parameters (default)
+[calculator]   .. add `relativistic: atomic_zora scalar` to parameters (default)
+[calculator]   .. add `output_level: MD_light` to parameters (default)
+[calculator]   Add basisset `light` for atom `Ba` to basissets folder.
+[calculator]   Add basisset `light` for atom `Zr` to basissets folder.
+[calculator]   Add basisset `light` for atom `S` to basissets folder.
+[calculator]   Calculator: aims
+[calculator]   settings:
+[calculator]     xc: pbesol
+[calculator]     k_grid: [6, 4, 6]
+[calculator]     sc_accuracy_rho: 1e-06
+[calculator]     relativistic: atomic_zora scalar
+[calculator]     output_level: MD_light
+[calculator]     compute_forces: True
+[calculator]     compute_analytical_stress: True
+[calculator]     aims_command: /work/e05/e05/prakaya/chalcogenide_perovskites/run_aims.sh
+[calculator]     species_dir: /mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/BaZrS3_tilt_62/relaxation/basissets
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   driver: BFGS
+[relaxation]   settings:
+[relaxation]     type: optimization
+[relaxation]     optimizer: BFGS
+[relaxation]     maxstep: 0.2
+[socketio]     Socketio not used with calculator aims
+[relaxation]   filter settings:
+[relaxation]     hydrostatic_strain: False
+[relaxation]     constant_volume: False
+[relaxation]     scalar_pressure: 0.0
+[relaxation]     mask: None
+[relaxation]   Restart optimizer from bfgs.restart.
+[relaxation]   Start step 0
+[relaxation]   Step 0 finished.
+[relaxation]   .. residual force:  3.860 meV/AA
+[relaxation]   .. residual stress: 21.972 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 1 finished.
+[relaxation]   .. residual force:  101.196 meV/AA
+[relaxation]   .. residual stress: 11976.709 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 2 finished.
+[relaxation]   .. residual force:  3.723 meV/AA
+[relaxation]   .. residual stress: 16.737 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 3 finished.
+[relaxation]   .. residual force:  3.542 meV/AA
+[relaxation]   .. residual stress: 16.229 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 4 finished.
+[relaxation]   .. residual force:  0.067 meV/AA
+[relaxation]   .. residual stress: 1.078 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Step 5 finished.
+[relaxation]   .. residual force:  0.008 meV/AA
+[relaxation]   .. residual stress: 0.151 meV/AA**3
+[vibes]        .. Space group:     Pnma (62)
+[relaxation]   clean atoms before logging
+[relaxation]   .. log
+[relaxation]   Relaxation converged.
+[relaxation]   done.
