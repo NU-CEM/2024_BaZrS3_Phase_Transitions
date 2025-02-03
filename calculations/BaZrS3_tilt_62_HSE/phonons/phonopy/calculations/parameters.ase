@@ -1,9 +1,0 @@
-dict(compute_forces=True,
-     hse_unit='bohr-1',
-     k_grid=[4, 2, 4],
-     output_level='MD_light',
-     relativistic='atomic_zora scalar',
-     sc_accuracy_rho=1e-06,
-     species_dir='/mnt/lustre/a2fs-work2/work/e05/e05/prakaya/chalcogenide_perovskites/redo/ternary/tilted_perovskites/HSE_perovskites/BaZrS3_tilt_62/phonons/phonopy/basissets',
-     use_pimd_wrapper=['localhost', 12346],
-     xc='hse06 0.11')
