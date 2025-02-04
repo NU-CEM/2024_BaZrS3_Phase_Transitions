@@ -1,0 +1,5 @@
+- `DFT_BaZrS3_tilt***.yaml` DFT data used for `phonopy` phonons plotting
+- `sample_temp***.npz` temperature-wise static structure factor extracted from `dynasor`   
+- `XRD_exp.csv` XRD data as provided by Sykora et al. 
+- `***_Tc_vals***.csv` transition temperature data to plot the phase diagram
+- `df_cooling_***.csv` heating/cooling data from NPT runs   

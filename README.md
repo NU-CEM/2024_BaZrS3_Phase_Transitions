@@ -7,4 +7,4 @@ File structure:
  - All data used in the plotting scripts are in `data`, additional README is provided inside.
  - All figures plotted using the scripts provided are saved in `figs`
  - The models trained using the HSE06 and PBEsol functionals are stored in `models`
- - All structures for the orthorhombic, tetragonal and cubic phases we predict for the BaZrS3 perovskite are present in `structures`, additional README is provided inside.  
+ - All structures for the orthorhombic, tetragonal and cubic phases we predict for the BaZrS3 perovskite are present in `structures` 
