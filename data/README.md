@@ -2,4 +2,4 @@
 - `sample_temp***.npz` temperature-dependent static structure factor extracted from MD trajectories using `dynasor`   
 - `***_Tc_vals***.csv` transition temperatures generated via heating runs and thermodynamic integration
 - `df_cooling_***.csv` data extracted from NPT molecular dynamics cooling runs
-- `df_cooling_***.csv` data extracted from NPT molecular dynamics heating runs  
+- `df_heating_***.csv` data extracted from NPT molecular dynamics heating runs  
