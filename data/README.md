@@ -1,5 +1,5 @@
 - `DFT_BaZrS3_tilt***.yaml` phonon data for each phase generated with DFT and phonopy.
 - `sample_temp***.npz` temperature-dependent static structure factor extracted from MD trajectories using `dynasor`   
-- `***_Tc_vals***.csv` transition temperatures generated via heating runs and thermodynamic integration
+- `tetra_cubic_Tc_vals_from_heating.csv` transition temperatures generated via heating runs - `ortho_tetra_Tc_vals_from_heating.csv` transition temperatures generated via thermodynamic integration
 - `df_cooling_***.csv` data extracted from NPT molecular dynamics cooling runs
 - `df_heating_***.csv` data extracted from NPT molecular dynamics heating runs  
