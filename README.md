@@ -1,4 +1,4 @@
-### Repository for `Octahedral tilt-driven phase transitions in BaZrS$_3$ chalcogenide perovskite`
+### Repository for `Octahedral tilt-driven phase transitions in BaZrS3 chalcogenide perovskite`
 
 This repository contains the data and Python code required to reproduce plots in the paper [Octahedral tilt-driven phase transitions in BaZrS3 chalcogenide perovskite](https://arxiv.org/pdf/2411.14289):
 
@@ -6,7 +6,7 @@ This repository contains the data and Python code required to reproduce plots in
  - `data`: Data for plotting, please see the additional README in the sub-folder.
  - `figs`: Figures which are produced
  - `models`: MLIPs (specifically [NEPs](https://gpumd.org/index.html)) trained using the HSE06 and PBEsol functionals.
- - `structures`: Atomic structures for BaZrS$_3$ in the orthorhombic, tetragonal and cubic phase, and for BaZrS$_3$ with Glazer tilts.
+ - `structures`: Atomic structures for BaZrS3 in the orthorhombic, tetragonal and cubic phase, and for BaZrS3 with Glazer tilts.
  - Additional Jupyter notebooks to plot figures in the supplementary information are also provided.
 
 Software versions used to run the above scripts/notebooks:
