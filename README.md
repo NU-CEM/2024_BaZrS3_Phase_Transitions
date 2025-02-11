@@ -16,5 +16,6 @@ Software versions used to run the above scripts/notebooks:
 - [spglib](https://spglib.readthedocs.io/en/stable/)    2.2.0
 - [hiphive](https://hiphive.materialsmodeling.org/)   1.3.1
 - [calorine](https://calorine.materialsmodeling.org/)  2.3.1
-- [GPUMD](https://gpumd.org/)     3.9.1 
+- [GPUMD](https://gpumd.org/)     3.9.4
+- [mplpub](https://gitlab.com/materials-modeling/mplpub) 1.1
 
